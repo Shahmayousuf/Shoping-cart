@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+}
+.cartcontainer{
+    position: relative;
+}
+.cartcounter{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(204, 60, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 35px;
+    left: 25px;
+    color: white;
+    font-size: 13px;
+}
+    
+
+

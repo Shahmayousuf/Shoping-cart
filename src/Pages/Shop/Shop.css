@@ -1,0 +1,43 @@
+h1 {
+    font-family: math;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn 
+   {
+    color: black;
+   background-color: white;
+   border-radius: 15px;
+   font-weight: bold;
+   border-color: grey;
+   border-width: 3px;
+  
+   }
+.btn:hover{
+    color: black;
+    background-color: grey;
+    border-color:grey
+}
+.productitems img{
+   width: 250px;
+   height: 200px;
+   
+
+} 
+.productitems img:hover{
+  transform: rotateY(60deg);
+  transform-style: preserve-3d;
+
+}
+
+.items {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  place-items: center;
+  justify-content: center;
+  gap: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
